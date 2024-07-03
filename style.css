@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*-----START -----*/
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .profile{
+    width: 350px;
+    height: 400px;
+    background: #E2E2E2;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+.container .profile .banner{
+    width: 100%;
+    height: 105px;
+    overflow: hidden;
+}
+.container .profile .banner .profile-banner{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.container .profile .profile-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -50px;
+    margin-left: 10px;
+}
+.container .profile .profile-pic .profile-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 4px solid #E2E2E2;
+}
+.container .profile .Name{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 0.6em;
+}
+.container .profile .Name .profile-name{
+    font-size: 0.6em:
+    outline: none;
+}
+.container .profile .bio{
+    width: 100%;
+    max-height: 30px;
+    padding: 0 50px;
+    font-size: 0.9em;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+.container .profile .bio .profile-bio{
+    font-size: 0.9em;
+    outline: none;
+}
+.container .profile .follow-me{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container .profile .follow{
+    width: 140px;
+    height: 26px;
+    transition: 0.3s;
+}
+.follow:hover{
+    opacity: 20px;
+    background: #1B52D6;
+}
+.container .profile .follow-me .message{
+    width: 140px;
+    height: 26px;
+}
+.message:hover{
+    opacity: 20px;
+    background: #1B52D6;
+}
+.container .profile .follow-me .sheare{
+    width: 50px;
+    height: 26px;
+    font-size: 1.2em;
+}
+.sheare:hover{
+    opacity: 20px;
+    background: #1B52D6;
+}
+.follow, .message, .sheare{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #153E9F;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.container .profile .Skills{
+   width: 100%;
+   margin-left: -30px;
+   color: black;
+   padding: 5px;
+}
+.container .profile .Skills .profile-skil{
+    font-size: 0.6em;
+    margin-left: 0px;
+ }
+.skillls li{
+    margin-left: 10px;
+    font-size: 0.7em;
+}
+.container .profile .Skills .hobby{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    color: black;
+}
+.container .profile .publicity{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+.container .profile .publicity .other{
+    margin-left: 10px;
+}
+.container .profile .publicity li{
+    float: left;
+    padding: 0 30px;
+    text-align: center;
+    font-weight: 100;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+.container .profile .full-profile{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .profile .full-profile .see-more{
+    border: none;
+    width: 80px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 0.7em;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+
+/* --------END ----------*/
+
